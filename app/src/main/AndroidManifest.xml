@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".GenerFilmsDescriptionActivity" />
         <activity android:name=".GenerList" />
-        <activity android:name=".MainBrandActivity"></activity>
+        <activity android:name=".MainBrandActivity" />
+        <activity android:name=".DescriptionBrandActivity"></activity>
     </application>
 
 </manifest>

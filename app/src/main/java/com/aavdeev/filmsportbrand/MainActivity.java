@@ -21,6 +21,10 @@ public class MainActivity extends Activity {
                     Intent intent = new Intent(MainActivity.this, GenerList.class);
                     startActivity(intent);
                 }
+                if (position == 1) {
+                    Intent intent = new Intent(MainActivity.this, MainBrandActivity.class);
+                    startActivity(intent);
+                }
             }
         };
         ListView listView = findViewById(R.id.option);
