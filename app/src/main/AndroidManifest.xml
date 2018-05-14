@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GenerFilmsDescriptionActivity"></activity>
+        <activity android:name=".GenerFilmsDescriptionActivity" />
+        <activity android:name=".GenerList" />
+        <activity android:name=".MainBrandActivity"></activity>
     </application>
 
 </manifest>
