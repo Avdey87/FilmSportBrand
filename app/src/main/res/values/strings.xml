@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FilmSportBrand</string>
+    <array name="optoin">
+        <item>Films</item>
+        <item>Sport brands</item>
+        <item>Timer</item>
+    </array>
+</resources>
