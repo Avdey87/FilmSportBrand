@@ -19,7 +19,12 @@
         <activity android:name=".GenerFilmsDescriptionActivity" />
         <activity android:name=".GenerList" />
         <activity android:name=".MainBrandActivity" />
-        <activity android:name=".DescriptionBrandActivity"></activity>
+        <activity android:name=".DescriptionBrandActivity" />
+        <activity
+            android:name=".Timer"
+            android:label="@string/title_activity_timer" />
+        <activity android:name=".ToIntentActivity" />
+        <activity android:name=".MessageActivity"></activity>
     </application>
 
 </manifest>

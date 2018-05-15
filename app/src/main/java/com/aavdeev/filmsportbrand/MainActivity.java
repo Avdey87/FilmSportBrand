@@ -25,6 +25,14 @@ public class MainActivity extends Activity {
                     Intent intent = new Intent(MainActivity.this, MainBrandActivity.class);
                     startActivity(intent);
                 }
+                if (position == 2) {
+                    Intent intent = new Intent(MainActivity.this, Timer.class);
+                    startActivity(intent);
+                }
+                if (position == 3) {
+                    Intent intent = new Intent(MainActivity.this, ToIntentActivity.class);
+                    startActivity(intent);
+                }
             }
         };
         ListView listView = findViewById(R.id.option);
